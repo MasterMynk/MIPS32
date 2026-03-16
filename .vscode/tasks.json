@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run MIPS (MARS)",
+            "type": "shell",
+            "command": "java",
+            "args": ["-jar", "/usr/share/mars-mips/Mars4_5.jar", "${file}"],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
